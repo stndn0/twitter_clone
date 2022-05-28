@@ -1,0 +1,58 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    font-family: 'Arimo', sans-serif;
+    /* Stretch header across page */
+    margin: 0;
+    padding: 0;
+    background-color: #F2F2F2;
+}
+
+body {
+    /* Force footer to stick to bottom of page */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#header-container {
+    background-color: #0D0D0D;
+    color: white;
+    display: flex;
+    /* Space between will push the logo to the left and the hamburger to the right*/
+    justify-content: space-between;
+    height: 72px;
+    max-height: 72px;
+    margin-bottom: 12px;
+}
+
+#header-left {
+    background-color: inherit;
+    display: flex;
+    align-items: center;
+    margin-left: 18px;
+}
+#header-right {
+    background-color: inherit;
+    display: flex;
+    align-items: center;
+    margin-right: 18px
+}
+
+.header-item {
+    background-color: inherit;
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0px 20px 0px 20px;
+}
+
+.logo {
+    font-size: 34px;
+    font-weight: 700;
+    margin-left: 0px;
+}
+
+#page-container {
+    margin: 0px 20px 0px 20px;
+}

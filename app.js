@@ -17,6 +17,9 @@ app.engine('hbs', exphbs.engine({
 // Set view engine to handlebars
 app.set('view engine', 'hbs')
 
+// Define where static assets live
+app.use(express.static('public'))
+
 // Server 
 app.listen(process.env.PORT || PORT, () => {
     console.log("Server is running.")
