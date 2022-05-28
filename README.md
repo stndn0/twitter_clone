@@ -8,6 +8,8 @@
 ```
 npm install express 
 
+npm install express-handlebars
+
 npm install mongoose
 
 npm install dotenv
@@ -21,5 +23,7 @@ npm install passport-local
 npm install express-flash
 
 npm install express-session
+
+npm install --save-dev nodemon  
 
 ```
